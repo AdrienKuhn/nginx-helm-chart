@@ -42,7 +42,7 @@ spec:
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
           volumeMounts:
-            - mountPath: /etc/nginx/conf.d/
+            - mountPath: /etc/nginx/conf.d/sites/
               name: nginx-config
         {{- with .Values.volumeMounts }}
             {{- toYaml . | nindent 12 }}
