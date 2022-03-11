@@ -1,6 +1,6 @@
 # nginx-helm-chart
 
-This Helm chart will deploy a hardened [nginx](https://github.com/AdrienKuhn/docker-hardened-nginx) instance.
+This Helm chart will deploy a hardened [nginx](https://github.com/AdrienKuhn/hardened-nginx) instance.
 
 ## Configuration
 
